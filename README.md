@@ -1,2 +1,3 @@
-# sp-2018
-Sp.1
+Notatki
+the-art-of-command-line(https://github.com/jlevy/the-art-of-command-line)
+
