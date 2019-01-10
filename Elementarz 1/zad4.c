@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+
+void wynik();
+int main(){
+    wynik();
+    
+}
+
+void wynik()
+{
+    int a, b, wynik=1;
+    printf("Podaj liczbe");
+    scanf("%d",&a);
+    if(0>a)
+    {
+        printf("Silnia wynosi 0 lub liczba podana jest mniejsza od 0",a);
+        exit (1);
+    }
+    for(b=1;b<=a;b++){
+    wynik *=b;
+    }
+    printf("Silnia wychodzi %d",wynik);
+}
